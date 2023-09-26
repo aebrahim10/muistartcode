@@ -1,10 +1,14 @@
+import { Work } from '@mui/icons-material';
 import './App.css';
+import About from './Components/About';
+import Home from './Components/Home'
 
 function App() {
   return (
     <div className="App">
-       that was Hello word!!!
-       but now it is just Hello world
+       <Home/>
+       <About />
+       <Work />
     </div>
   );
 }
